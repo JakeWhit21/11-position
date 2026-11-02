@@ -1,0 +1,48 @@
+html {
+    background-color: antiquewhite
+}
+
+.site-nav {
+    background-color: rgb(51, 188, 51);
+}
+
+.site-links {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.site-link {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.site-link:hover {
+    background-color: green;
+}
+
+.dropdown {
+    background-color: seashell;
+    position:absolute;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.516);
+    list-style-type: none;
+    padding: 0;
+    display: none;
+}
+
+.has-dropdown:hover .dropdown {
+    display: block;
+}
+
+.dropdown-link {
+    text-decoration: none;
+    color: rgb(52, 52, 52);
+    display: block;
+    padding: 8px 16px;
+}
+
+.dropdown-link:hover {
+    background-color: rgb(255, 215, 186);
+}
